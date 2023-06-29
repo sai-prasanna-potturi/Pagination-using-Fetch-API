@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Paginition Task</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='pagination.css'>
+    <script src='pagination.js'></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+
+    <div class="user-container">    
+        <div class="api-data" id="apiData">      
+    </div>
+    </div>
+      <div class="pagination-container" id="pageNum">
+        <button class="arrow-button left-arrow"><ion-icon class="arrow-icon" name="arrow-dropleft"></ion-icon></button>
+        <a class="page-number" href="#" id="onePage" onclick="userDetails(0)">1</a>
+        <a class="page-number" id="page2" onclick="userDetails(1)" href="#">2</a>
+        <a class="page-number" id="page3" href="#" onclick="userDetails(2)">3</a>
+        <a class="page-number" id="page4" href="#" onclick="userDetails(3)">4</a>
+        <a class="page-number" id="page5" href="#" onclick="userDetails(4)">5</a>  
+        <button class="arrow-button right-arrow"><ion-icon class="arrow-icon" name="arrow-dropright"></ion-icon></button>
+    </div>
+    
+</body>
+</html>

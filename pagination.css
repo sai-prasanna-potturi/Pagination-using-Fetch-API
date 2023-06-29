@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.table-container{
+    margin: auto;
+    padding: 10px;
+    width: 60vw;
+    text-align: center;
+}
+.th-details{
+    margin: 20px;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(0, 255, 255);
+}
+.td-details{
+    margin: 20px;
+    padding: 15px;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(196, 196, 196);
+}
+/* pagination  */
+.pagination-container {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    
+}
+.arrow-button{
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border-width: 0px;
+    border-color: solid rgb(205, 205, 205);
+}
+
+.page-number{
+    margin: 5px;
+    padding: 15px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+}
+.page-number:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
+}
+.page-number:active{
+    background-color: rgb(253, 10, 10);
+    color: rgb(255, 255, 255);
+}
+.arrow-icon{
+    margin: -7px;
+    font-size: 30px;
+}
+.arrow-icon:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
+}
